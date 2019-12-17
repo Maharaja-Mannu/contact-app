@@ -28,6 +28,7 @@ const ContactsList = props => {
             renderItem={renderItem}
             renderSectionHeader={renderSectionHeader}
             sections={sections}
+            keyExtractor={(item, index) => index}
         />
     )
 }
